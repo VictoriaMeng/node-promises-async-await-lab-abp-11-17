@@ -35,8 +35,7 @@ class Question {
         const question = Question._All[id-1] // Do Not Edit
         console.log(`...Question ${id} Loaded`) // Do Not Edit
 
-        return resolve(question)
-        done()
+        resolve(question)
       }, 1500);
     })
 
@@ -49,7 +48,6 @@ class Question {
     console.log("\n")
     console.log(question.content)
     console.log("\n")
-    done()
   }
 }
 
