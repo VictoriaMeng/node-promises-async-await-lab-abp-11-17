@@ -42,7 +42,7 @@ describe('Question', () => {
       const question = await Question.Find(1)
 
       expect(question).to.eql(Question._All[0], "HINT: Are you returning a promise that has a resolve?\n")
-    
+
     })
   })
   describe("Question.Print(id)", function(){
